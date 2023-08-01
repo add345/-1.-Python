@@ -12,3 +12,13 @@ if a < b+c and b < a+c and c < a+b:
     print("Треугольник существует") 
 else: 
     print("Треугольник не существует")
+    
+
+a = float(input("Введите сторону a: ")) 
+b = float(input("Введите сторону b: ")) 
+c = float(input("Введите сторону c: ")) 
+ 
+if a == b and b == c: 
+     print("Равносторонний треугольник") 
+elif a == b or b == c  or c == a:
+     print("Равнобедренный треугольник")
